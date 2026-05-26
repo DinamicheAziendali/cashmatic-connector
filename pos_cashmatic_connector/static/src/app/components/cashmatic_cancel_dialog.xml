@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<templates xml:space="preserve">
+
+    <t t-name="pos_cashmatic_connector.CashmaticCancelDialog">
+        <Dialog size="'sm'" title.translate="Cashmatic error">
+            <p t-out="props.message" class="text-prewrap" />
+            <t t-set-slot="footer">
+                <button
+                    class="btn btn-primary"
+                    t-on-click="() => { props.cancel(); props.close(); }"
+                >
+                    Cancel Operation
+                </button>
+                <button class="btn btn-secondary" t-on-click="() => props.close()">
+                    Close
+                </button>
+            </t>
+        </Dialog>
+    </t>
+
+</templates>

@@ -15,6 +15,7 @@ Available addons
 ----------------
 | addon | version | maintainers | summary |
 | --- | --- | --- | --- |
+| [pos_cashmatic_connector](pos_cashmatic_connector/) | 19.0.1.0.0 |  | Allows communication between Odoo PoS and Cashmatic devices |
 
 [//]: # (end addons)
 

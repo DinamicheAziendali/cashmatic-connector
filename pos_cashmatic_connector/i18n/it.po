@@ -1,0 +1,499 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* pos_cashmatic_connector
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 19.0+e\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-05-26 13:42+0000\n"
+"PO-Revision-Date: 2026-05-26 13:42+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: pos_cashmatic_connector
+#. odoo-javascript
+#: code:addons/pos_cashmatic_connector/static/src/app/payment_cashmatic.esm.js:0
+msgid "CASHMATIC TRANSACTION CANCELLED"
+msgstr "TRANSAZIONE CASHMATIC ANNULLATA"
+
+#. module: pos_cashmatic_connector
+#. odoo-javascript
+#: code:addons/pos_cashmatic_connector/static/src/app/payment_cashmatic.esm.js:0
+msgid "CASHMATIC TRANSACTION SUCCESSFUL"
+msgstr "TRANSAZIONE CASHMATIC AVVENUTA CON SUCCESSO"
+
+#. module: pos_cashmatic_connector
+#. odoo-javascript
+#: code:addons/pos_cashmatic_connector/static/src/utils/constants.esm.js:0
+msgid "Calculating change"
+msgstr "Calcolando il resto"
+
+#. module: pos_cashmatic_connector
+#. odoo-javascript
+#: code:addons/pos_cashmatic_connector/static/src/app/components/cashmatic_cancel_dialog.xml:0
+msgid "Cancel Operation"
+msgstr "Annulla operazione"
+
+#. module: pos_cashmatic_connector
+#. odoo-javascript
+#: code:addons/pos_cashmatic_connector/static/src/utils/constants.esm.js:0
+msgid "Cancelling payment"
+msgstr "Annullando il pagamento"
+
+#. module: pos_cashmatic_connector
+#. odoo-javascript
+#: code:addons/pos_cashmatic_connector/static/src/app/payment_cashmatic.esm.js:0
+msgid "Cash deposited: %s"
+msgstr "Contanti versati: %s"
+
+#. module: pos_cashmatic_connector
+#. odoo-javascript
+#: code:addons/pos_cashmatic_connector/static/src/app/payment_cashmatic.esm.js:0
+msgid "Cash disbursed: %s"
+msgstr "Contanti erogato: %s"
+
+#. module: pos_cashmatic_connector
+#: model:ir.model.fields,field_description:pos_cashmatic_connector.field_pos_payment_method__cashmatic_websocket_address
+msgid "Cashmatic API URL"
+msgstr ""
+
+#. module: pos_cashmatic_connector
+#: model:ir.model.fields,field_description:pos_cashmatic_connector.field_pos_payment_method__cashmatic_password
+msgid "Cashmatic Password"
+msgstr ""
+
+#. module: pos_cashmatic_connector
+#: model:ir.model.fields,help:pos_cashmatic_connector.field_pos_payment_method__cashmatic_websocket_address
+msgid ""
+"Cashmatic REST Service Local URL, for example https://127.0.0.1:50301"
+msgstr ""
+"URL locale del servizio REST Cashmatic, ad esempio https://127.0.0.1:50301"
+
+#. module: pos_cashmatic_connector
+#: model_terms:ir.ui.view,arch_db:pos_cashmatic_connector.pos_payment_method_cashmatic_form_inherit_view
+msgid "Cashmatic Settings"
+msgstr "Impostazioni Cashmatic"
+
+#. module: pos_cashmatic_connector
+#: model:ir.model.fields,field_description:pos_cashmatic_connector.field_pos_payment_method__cashmatic_username
+msgid "Cashmatic Username"
+msgstr ""
+
+#. module: pos_cashmatic_connector
+#. odoo-javascript
+#: code:addons/pos_cashmatic_connector/static/src/app/screens/payment_screen/payment_lines/payment_lines.xml:0
+msgid "Cashmatic amount:"
+msgstr "Importo Cashmatic:"
+
+#. module: pos_cashmatic_connector
+#. odoo-javascript
+#: code:addons/pos_cashmatic_connector/static/src/app/payment_cashmatic.esm.js:0
+msgid ""
+"Cashmatic did not disburse all other/amount claimed. Amount not disbursed: "
+"%s."
+msgstr ""
+"Cashmatic non ha erogato tutto il resto/importo richiesto. Importo non erogato: "
+"%s."
+
+#. module: pos_cashmatic_connector
+#. odoo-javascript
+#: code:addons/pos_cashmatic_connector/static/src/app/components/cashmatic_cancel_dialog.xml:0
+#: code:addons/pos_cashmatic_connector/static/src/app/payment_cashmatic.esm.js:0
+msgid "Cashmatic error"
+msgstr "Errore Cashmatic"
+
+#. module: pos_cashmatic_connector
+#. odoo-javascript
+#: code:addons/pos_cashmatic_connector/static/src/app/payment_cashmatic.esm.js:0
+msgid "Cashmatic has an error, please consult its display for details."
+msgstr "Cashmatic ha un errore, controlla lo schermo per avere più dettagli."
+
+#. module: pos_cashmatic_connector
+#. odoo-javascript
+#: code:addons/pos_cashmatic_connector/static/src/app/screens/payment_screen/payment_lines/payment_lines.xml:0
+msgid "Cashmatic has run out of the following coins/bills:"
+msgstr "Cashmatic ha esaurito le seguenti monete/banconote:"
+
+#. module: pos_cashmatic_connector
+#. odoo-javascript
+#: code:addons/pos_cashmatic_connector/static/src/app/payment_cashmatic.esm.js:0
+msgid "Cashmatic is busy with another operation."
+msgstr "Cashmatic è impegnato con un'altra operazione."
+
+#. module: pos_cashmatic_connector
+#. odoo-javascript
+#: code:addons/pos_cashmatic_connector/static/src/app/payment_cashmatic.esm.js:0
+msgid "Cashmatic is busy with another operation. Do you want to cancel it?"
+msgstr "Cashmatic è impegnato con un'altra operazione. Vuoi annullarla?"
+
+#. module: pos_cashmatic_connector
+#. odoo-javascript
+#: code:addons/pos_cashmatic_connector/static/src/app/payment_cashmatic.esm.js:0
+msgid ""
+"Cashmatic is currently in collection/replenishment mode, please finish this "
+"process on the machine before making a payment."
+msgstr ""
+"Cashmatic è attualmente in modalità di ritiro/ricarica, si prega di "
+"completare questa operazione sul dispositivo prima di effettuare un "
+"pagamento."
+
+#. module: pos_cashmatic_connector
+#. odoo-javascript
+#: code:addons/pos_cashmatic_connector/static/src/backend/cashmatic_admin_buttons/cashmatic_admin_buttons.esm.js:0
+msgid "Cashmatic is disconnected"
+msgstr "Cashmatic è scollegato"
+
+#. module: pos_cashmatic_connector
+#. odoo-javascript
+#: code:addons/pos_cashmatic_connector/static/src/app/payment_cashmatic.esm.js:0
+msgid "Cashmatic is disconnected."
+msgstr "Cashmatic non è connesso."
+
+#. module: pos_cashmatic_connector
+#. odoo-javascript
+#: code:addons/pos_cashmatic_connector/static/src/app/screens/payment_screen/payment_lines/payment_lines.xml:0
+msgid "Cashmatic is running low on the following coins/bills:"
+msgstr "Cashmatic ha quasi finito le seguenti monete/banconote:"
+
+#. module: pos_cashmatic_connector
+#. odoo-javascript
+#: code:addons/pos_cashmatic_connector/static/src/app/screens/payment_screen/payment_lines/payment_lines.xml:0
+msgid "Cashmatic must be emptied, the following coins/bills are full:"
+msgstr "Cashmatic deve essere svuotato, le seguenti monete/banconote sono piene:"
+
+#. module: pos_cashmatic_connector
+#. odoo-javascript
+#: code:addons/pos_cashmatic_connector/static/src/app/payment_cashmatic.esm.js:0
+msgid "Cashmatic payments cannot be negative."
+msgstr "Pagamenti Cashmatic non possono essere negativi."
+
+#. module: pos_cashmatic_connector
+#. odoo-javascript
+#: code:addons/pos_cashmatic_connector/static/src/app/screens/payment_screen/payment_lines/payment_lines.xml:0
+msgid "Cashmatic status:"
+msgstr "Stato Cashmatic"
+
+#. module: pos_cashmatic_connector
+#. odoo-javascript
+#: code:addons/pos_cashmatic_connector/static/src/cashmatic_service.esm.js:0
+msgid "Cashmatic token not present in login response"
+msgstr "Token Cashmatic non presente nella risposta di accesso"
+
+#. module: pos_cashmatic_connector
+#. odoo-javascript
+#: code:addons/pos_cashmatic_connector/static/src/app/payment_cashmatic.esm.js:0
+msgid "Change given: %s"
+msgstr "Resto dato: %s"
+
+#. module: pos_cashmatic_connector
+#. odoo-javascript
+#: code:addons/pos_cashmatic_connector/static/src/backend/cashmatic_admin_buttons/cashmatic_admin_buttons.xml:0
+msgid "Check Cashmatic"
+msgstr "Controlla Cashmatic"
+
+#. module: pos_cashmatic_connector
+#. odoo-javascript
+#: code:addons/pos_cashmatic_connector/static/src/app/components/cashmatic_cancel_dialog.xml:0
+msgid "Close"
+msgstr "Chiudi"
+
+#. module: pos_cashmatic_connector
+#. odoo-javascript
+#: code:addons/pos_cashmatic_connector/static/src/utils/constants.esm.js:0
+msgid "Collection in progress"
+msgstr "Raccolta in corso"
+
+#. module: pos_cashmatic_connector
+#. odoo-javascript
+#: code:addons/pos_cashmatic_connector/static/src/cashmatic_service.esm.js:0
+msgid "Communication timeout with Cashmatic"
+msgstr "Timeout di comunicazione con Cashmatic"
+
+#. module: pos_cashmatic_connector
+#. odoo-javascript
+#: code:addons/pos_cashmatic_connector/static/src/utils/constants.esm.js:0
+msgid "Connecting"
+msgstr "Connessione in corso"
+
+#. module: pos_cashmatic_connector
+#. odoo-javascript
+#: code:addons/pos_cashmatic_connector/static/src/app/screens/payment_screen/payment_lines/payment_lines.xml:0
+msgid ""
+"Consider emptying Cashmatic, the following coins/bills are nearly full:"
+msgstr ""
+"È necessario svuotare Cashmatic perché le seguenti monete/banconote sono quasi piene:"
+
+#. module: pos_cashmatic_connector
+#. odoo-javascript
+#: code:addons/pos_cashmatic_connector/static/src/utils/constants.esm.js:0
+msgid "Counting"
+msgstr "Contando"
+
+#. module: pos_cashmatic_connector
+#. odoo-javascript
+#: code:addons/pos_cashmatic_connector/static/src/utils/constants.esm.js:0
+msgid "Counting replenished cash"
+msgstr "Conteggio del contante reintegrato"
+
+#. module: pos_cashmatic_connector
+#. odoo-javascript
+#: code:addons/pos_cashmatic_connector/static/src/backend/cashmatic_admin_buttons/cashmatic_admin_buttons.xml:0
+msgid "Current Cashmatic status:"
+msgstr "Stato attuale Cashmatic:"
+
+#. module: pos_cashmatic_connector
+#. odoo-javascript
+#: code:addons/pos_cashmatic_connector/static/src/utils/constants.esm.js:0
+msgid "Disconnected"
+msgstr "Non connesso"
+
+#. module: pos_cashmatic_connector
+#. odoo-javascript
+#: code:addons/pos_cashmatic_connector/static/src/utils/constants.esm.js:0
+msgid "Dispensing"
+msgstr "Erogazione in corso"
+
+#. module: pos_cashmatic_connector
+#: model:ir.model.fields,field_description:pos_cashmatic_connector.field_pos_payment_method__display_name
+msgid "Display Name"
+msgstr "Nome visualizzato"
+
+#. module: pos_cashmatic_connector
+#. odoo-javascript
+#: code:addons/pos_cashmatic_connector/static/src/backend/cashmatic_admin_buttons/cashmatic_admin_buttons.xml:0
+msgid "Download Logs"
+msgstr "Scarica logs"
+
+#. module: pos_cashmatic_connector
+#. odoo-javascript
+#: code:addons/pos_cashmatic_connector/static/src/utils/constants.esm.js:0
+msgid "Error"
+msgstr "Errore"
+
+#. module: pos_cashmatic_connector
+#. odoo-javascript
+#: code:addons/pos_cashmatic_connector/static/src/utils/constants.esm.js:0
+msgid "Failed to authenticate"
+msgstr "Impossibile completare l'autenticazione"
+
+#. module: pos_cashmatic_connector
+#. odoo-javascript
+#: code:addons/pos_cashmatic_connector/static/src/app/payment_cashmatic.esm.js:0
+msgid ""
+"Failed to connect to Cashmatic, please check URL, CORS and local HTTPS "
+"certificate."
+msgstr ""
+"Impossibile connettersi a Cashmatic, si prega controllare URL, CORS e "
+"certificato HTTPS locale."
+
+#. module: pos_cashmatic_connector
+#. odoo-javascript
+#: code:addons/pos_cashmatic_connector/static/src/app/payment_cashmatic.esm.js:0
+msgid ""
+"Failed to login to Cashmatic, please check the configured username and "
+"password."
+msgstr ""
+"Impossibile accedere a Cashmatic, controlla il nome utente e la password "
+"configurati."
+
+#. module: pos_cashmatic_connector
+#: model:ir.model.fields,field_description:pos_cashmatic_connector.field_pos_payment_method__id
+msgid "ID"
+msgstr ""
+
+#. module: pos_cashmatic_connector
+#. odoo-javascript
+#: code:addons/pos_cashmatic_connector/static/src/utils/constants.esm.js:0
+msgid "Idle"
+msgstr "Pronto"
+
+#. module: pos_cashmatic_connector
+#. odoo-javascript
+#: code:addons/pos_cashmatic_connector/static/src/utils/constants.esm.js:0
+msgid "Inactive device"
+msgstr "Dispositivo inattivo"
+
+#. module: pos_cashmatic_connector
+#. odoo-javascript
+#: code:addons/pos_cashmatic_connector/static/src/utils/constants.esm.js:0
+msgid "Initializing"
+msgstr "Avvio in corso"
+
+#. module: pos_cashmatic_connector
+#. odoo-javascript
+#: code:addons/pos_cashmatic_connector/static/src/utils/constants.esm.js:0
+msgid "Insufficient cash fund"
+msgstr "Fondo di cassa insufficiente"
+
+#. module: pos_cashmatic_connector
+#: model:ir.model.fields,help:pos_cashmatic_connector.field_pos_payment_method__cashmatic_polling_interval
+msgid "Interval used by the POS browser to poll ActiveTransaction."
+msgstr "Intervallo utilizzato dal browser POS per interrogare ActiveTransaction."
+
+#. module: pos_cashmatic_connector
+#. odoo-javascript
+#: code:addons/pos_cashmatic_connector/static/src/cashmatic_service.esm.js:0
+msgid "Invalid Cashmatic amount"
+msgstr "Importo Cashmatic non valido"
+
+#. module: pos_cashmatic_connector
+#. odoo-javascript
+#: code:addons/pos_cashmatic_connector/static/src/utils/constants.esm.js:0
+msgid "Other operation in progress"
+msgstr "Altre operazioni in corso"
+
+#. module: pos_cashmatic_connector
+#: model_terms:ir.ui.view,arch_db:pos_cashmatic_connector.pos_payment_method_cashmatic_form_inherit_view
+msgid "Payment"
+msgstr "Pagamento"
+
+#. module: pos_cashmatic_connector
+#: model:ir.model.fields,field_description:pos_cashmatic_connector.field_pos_payment_method__cashmatic_payment_timeout
+msgid "Payment Timeout (seconds)"
+msgstr "Timeout pagamento (secondi)"
+
+#. module: pos_cashmatic_connector
+#: model:ir.model,name:pos_cashmatic_connector.model_pos_payment_method
+msgid "Point of Sale Payment Methods"
+msgstr "Metodi di pagamento punto vendita"
+
+#. module: pos_cashmatic_connector
+#: model:ir.model.fields,field_description:pos_cashmatic_connector.field_pos_payment_method__cashmatic_polling_interval
+msgid "Polling Interval (ms)"
+msgstr "Intervallo di polling (ms)"
+
+#. module: pos_cashmatic_connector
+#. odoo-javascript
+#: code:addons/pos_cashmatic_connector/static/src/app/screens/payment_screen/payment_lines/payment_lines.xml:0
+msgid "Request sent"
+msgstr "Richiesta inviata"
+
+#. module: pos_cashmatic_connector
+#. odoo-javascript
+#: code:addons/pos_cashmatic_connector/static/src/backend/cashmatic_admin_buttons/cashmatic_admin_buttons.esm.js:0
+msgid "Reset Cashmatic complete"
+msgstr "Reset Cashmatic completato"
+
+#. module: pos_cashmatic_connector
+#. odoo-javascript
+#: code:addons/pos_cashmatic_connector/static/src/utils/constants.esm.js:0
+msgid "Resetting"
+msgstr "Ripristino in corso"
+
+#. module: pos_cashmatic_connector
+#. odoo-javascript
+#: code:addons/pos_cashmatic_connector/static/src/backend/cashmatic_admin_buttons/cashmatic_admin_buttons.esm.js:0
+msgid "Resetting Cashmatic..."
+msgstr "Ripristino Cashmatic in corso..."
+
+#. module: pos_cashmatic_connector
+#. odoo-javascript
+#: code:addons/pos_cashmatic_connector/static/src/utils/constants.esm.js:0
+msgid "Starting payment"
+msgstr "Pagamento iniziale"
+
+#. module: pos_cashmatic_connector
+#. odoo-javascript
+#: code:addons/pos_cashmatic_connector/static/src/app/payment_cashmatic.esm.js:0
+msgid ""
+"The Cashmatic payment failed due to an unrecoverable error - see Cashmatic "
+"screen for details."
+msgstr ""
+"Pagamento Cashmatic non è riuscito a causa di un errore irreversibile. Controlla lo "
+"schermo di Cashmatic per avere più dettagli."
+
+#. module: pos_cashmatic_connector
+#. odoo-javascript
+#: code:addons/pos_cashmatic_connector/static/src/app/payment_cashmatic.esm.js:0
+msgid "The Cashmatic payment failed for an unknown reason: %s"
+msgstr "Pagamento Cashmatic non è andato a buon fine per un motivo sconosciuto: %s"
+
+#. module: pos_cashmatic_connector
+#. odoo-javascript
+#: code:addons/pos_cashmatic_connector/static/src/cashmatic_service.esm.js:0
+msgid ""
+"The browser blocked the direct call to Cashmatic. Verify CORS, local and "
+"reachable HTTPS certificate of https://127.0.0.1:50301."
+msgstr ""
+"Il browser ha bloccato la richiesta a Cashmatic. Verificare CORS, certificato "
+"HTTPS locale e raggiungibile di https://127.0.0.1:50301."
+
+#. module: pos_cashmatic_connector
+#. odoo-javascript
+#: code:addons/pos_cashmatic_connector/static/src/app/payment_cashmatic.esm.js:0
+msgid ""
+"There is insufficient change in Cashmatic to handle the payment. It must be "
+"cancelled to continue."
+msgstr ""
+"Cashmatic non dispone di contanti sufficienti per effettuare il pagamento. È "
+"necessario annullare l'operazione per continuare."
+
+#. module: pos_cashmatic_connector
+#. odoo-javascript
+#: code:addons/pos_cashmatic_connector/static/src/cashmatic_service.esm.js:0
+msgid "Timeout while waiting for Cashmatic response"
+msgstr "Timeout in attesa della risposta Cashmatic"
+
+#. module: pos_cashmatic_connector
+#. odoo-javascript
+#: code:addons/pos_cashmatic_connector/static/src/app/payment_cashmatic.esm.js:0
+msgid "Transaction ID: %s"
+msgstr "ID transazione: %s"
+
+#. module: pos_cashmatic_connector
+#. odoo-javascript
+#: code:addons/pos_cashmatic_connector/static/src/cashmatic_service.esm.js:0
+msgid "Unknown Cashmatic Error"
+msgstr "Errore Cashmatic sconosciuto"
+
+#. module: pos_cashmatic_connector
+#. odoo-javascript
+#: code:addons/pos_cashmatic_connector/static/src/utils/constants.esm.js:0
+msgid "Waiting for cancellation"
+msgstr "In attesa di annullamento"
+
+#. module: pos_cashmatic_connector
+#. odoo-javascript
+#: code:addons/pos_cashmatic_connector/static/src/utils/constants.esm.js:0
+msgid "Waiting for cash to be removed"
+msgstr "In attesa che il contante venga rimosso"
+
+#. module: pos_cashmatic_connector
+#. odoo-javascript
+#: code:addons/pos_cashmatic_connector/static/src/utils/constants.esm.js:0
+msgid "Waiting for cash to be replenished"
+msgstr "In attesa del rifornimento di contanti"
+
+#. module: pos_cashmatic_connector
+#. odoo-javascript
+#: code:addons/pos_cashmatic_connector/static/src/utils/constants.esm.js:0
+msgid "Waiting for coin overflow removal"
+msgstr "In attesa della rimozione dell'eccesso di monete"
+
+#. module: pos_cashmatic_connector
+#. odoo-javascript
+#: code:addons/pos_cashmatic_connector/static/src/utils/constants.esm.js:0
+msgid "Waiting for error recovery"
+msgstr "In attesa del ripristino dell'errore"
+
+#. module: pos_cashmatic_connector
+#. odoo-javascript
+#: code:addons/pos_cashmatic_connector/static/src/utils/constants.esm.js:0
+msgid "Waiting for insertion of cash"
+msgstr "In attesa dell'inserimento del contante"
+
+#. module: pos_cashmatic_connector
+#. odoo-javascript
+#: code:addons/pos_cashmatic_connector/static/src/utils/constants.esm.js:0
+msgid "Waiting for inventory"
+msgstr "In attesa del magazzino"
+
+#. module: pos_cashmatic_connector
+#: model_terms:ir.ui.view,arch_db:pos_cashmatic_connector.pos_payment_method_cashmatic_form_inherit_view
+msgid "https://127.0.0.1:50301"
+msgstr ""
